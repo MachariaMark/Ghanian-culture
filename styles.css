@@ -1,0 +1,18 @@
+form {
+    width: 300px
+}
+input {
+    width: 50% 
+}
+input, textarea {
+    outline: none;
+    border: 5px solid #dddddd
+}
+input:focus, textarea:focus {
+    box-shadow: 0 0 4px rdba(255, 0 ,0 ,0.5);
+    border: 3px solid rdb(255, 0 ,0)
+}
+button {
+    box-shadow: 0 0 4px rdba(255, 0 ,0 ,0.5)
+    border: 3px solid rdb(255, 0 ,0)
+}
