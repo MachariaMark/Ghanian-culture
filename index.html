@@ -4,22 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Akan Names & Ghanian culture.</title>
+    <title>Ghanian Birthday Name.</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
-
 <body>
-    <h2>Lets find out your Akan Name ?<h2>
-    <form action="Akan.js" method="POST">
-        DATE:<br>
-        <input type="date" name="date" value="date" autofocus>
-        <br>
-        GENDER:<br><br>
-        <input type="radio" name="gender" value="male" checked> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
-        <input type="radio" name="gender" value="other" checked> Other<br>
-        <button type="submit" name="Submit">submit</button>
-    </form>    
+    <div class="Akua">
+    <h1>Ghanian Birthday Name.</h1>
+    <p>This is a web application that takes a user's birthday and calculates the day of the week they were born.<br>
+       Then depending on their gender outputs their Akan Name.<br>
+       Akan names are derived from Ghanian culture.<br>
+       Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.<br> 
+       Here are Ghanian day names:  
+    </p>
+    <ul>
+        <b>Male</b>
+        <li>Sunday: Kwasi</li>
+        <li>Monday: Kwadwo</li>
+        <li>Tuesday: Kwabena</li>
+        <li>Wednesday: Kwaku</li>
+        <li>Thursday:  Yaw</li>
+        <li>Friday: Kofi</li>
+        <li>Saturday: Kwame</li>
+    </ul>
+    <ul>
+        <b>Female</b>
+        <li>Sunday: Akosua</li>
+        <li>Monday: Adwoa</li>
+        <li>Tuesday: Abenaa</li>
+        <li>Wednesday: Akua</li>
+        <li>Thursday:  Yaa</li>
+        <li>Friday: Afua</li>
+        <li>Saturday: Ama</li>
+    </ul>
+    <p>Most people do know when their birthdays are, but some might not know what day of the week they were born.<br>
+        Luckily for us, there are ways to calculate the day of the week from a specific date.</p>
+    </div>
+    <div class="Adinkra">
+    <div class="form">
+        <img src="gflag.jpeg" class="Nana">    
+        <h2>Lets find out your Akan Name ?<h2>
+        <form action="Akan.js" method="POST">
+            <p>DATE:</p>
+            <input type="date" name="date" value="date" autofocus>
+            <br><br>
+            <p>GENDER:</p>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other" checked> Other<br><br>
+            <button type="submit" name="Submit">submit</button>
+        </form>   
+    </div>
 </body>
 </html>
