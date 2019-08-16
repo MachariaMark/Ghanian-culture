@@ -10,10 +10,13 @@
 <body>
     <script src="Akan.js"></script>
     <div class="Akua">
-    
-        <div class="row">
-            <div class="column">
-                <h1>Ghanian Birthday Name.</h1>
+        <ul class="ul">
+            <li class="li"><a class="active" href="#1">HOME</a></li>
+            <li class="li"><a href="#2">ABOUT</a></li>
+        </ul>
+        <div class="row"> 
+            <div class="column1">
+                <h1 id="2">Ghanian Birthday Name.</h1>
                 <p>This is a web application that takes a user's birthday and calculates the day of the week they were born.<br>
                    Then depending on their gender outputs their Akan Name.<br>
                    Akan names are derived from Ghanian culture.<br>
@@ -21,7 +24,7 @@
                    Here are Ghanian day names:  
                 </p>
             </div>
-            <div class="column">
+            <div class="column2">
                 <ul>
                    <b>Male</b>
                    <li>Sunday: Kwasi</li>
@@ -43,9 +46,10 @@
                    <li>Saturday: Ama</li>
                 </ul>
             </div>
-            <div class="column">
+            <div class="column3">
                 <p>Most people do know when their birthdays are, but some might not know what day of the week they were born.<br>
-                    Luckily for us, there are ways to calculate the day of the week from a specific date.</p>
+                   Luckily for us, there are ways to calculate the day of the week from a specific date.
+                </p>
             </div>
         </div>
     
@@ -53,15 +57,27 @@
     <div class="Adinkra">
     <div class="form">
         <img src="gflag.jpeg" class="Nana">    
-        <h2>FIND YOUR AKAN NAME ?<h2>
-        <form action="Akan.js" method="POST">
-            <p>DATE:</p>
-            <input type="date" name="date" value="date" autofocus>
-            <br><br>
+        <h2 id="1">FIND YOUR AKAN NAME ?<h2>
+        <form action="#" method="POST" onsubmit="return validation()">
+            <table class="td">
+                <tr>
+                   <th>DATE:</th>
+                </tr>
+                <tr>        
+                   <td><input type="text" name="day" id="day" placeholder="DD"></td>
+                </tr>   
+                <tr>
+                   <td><input type="text" name="month" id="month" placeholder="MM"></td>
+                </tr>
+                <tr>
+                   <td><input type="text" name="year" id="year" placeholder="YYYY"></td>
+                </tr>
+            </table>
+            <br>
             <p>GENDER:</p>
             <input type="radio" name="gender" value="male" checked> Male<br>
             <input type="radio" name="gender" value="female"> Female<br><br>
-            <button type="submit" name="Submit"><b>submit</b></button>
+            <button class="button" type="submit" name="Submit"><b>submit</b></button>
         </form>   
     </div>
 </body>

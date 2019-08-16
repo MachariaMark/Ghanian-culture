@@ -3,18 +3,78 @@ body {
     padding: 0%;
     height: 0%;
 }
+.column1 {
+    padding: 35px;
+    column-span: all;
+}
+.column2 {
+    padding: 20px;
+    float: center;
+}
+.column3 {
+    padding: 35px;
+    box-sizing: border-box;
+}
+.ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    overflow: hidden;
+    background-color: 87ceeb;
+}
+.li {
+    float: left;
+}
+.li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.li a:hover {
+    background-color: black
+}
+.active {
+    background-color: red;
+}
+.button {
+    background-color: aquamarine; /* aquamarine */
+    border: none;
+    font-size: 17px;
+    color: rgb(51, 34, 34);
+    border-radius: 2px;
+    padding: 15px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: red;
+    color: white ;
+}
+.td {
+    padding: 25px;
+    transform: translate(25%,15%);
+}
 .Akua {
     margin: 0%;
     padding:0%;
     background-image: url(NanaAkua.jpeg);
-    background-position:top;
+    background-position:center;
     background-repeat: no-repeat;
-    height: 50%;
+    height: 30%;
+    opacity: 0.788899;
     font-family: sans-serif;
 }
 .form {
     width: 500px;
-    height: 360px;
+    height: 500px;
     background: #000;
     color: aquamarine;
     top: 25%;
@@ -22,7 +82,7 @@ body {
     position: absolute;
     transform: translate(-50%,15%);
     box-sizing: border-box;
-    padding: 50px;
+    padding: 60px;
 }
 .form p {
     margin: 0;
