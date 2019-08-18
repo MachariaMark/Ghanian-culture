@@ -3,41 +3,40 @@ body {
     padding: 0%;
     height: 0%;
 }
-.column1 {
-    padding: 35px;
-    column-span: all;
+.box {
+    position: relative;
+    display: block;
 }
-.column2 {
-    padding: 20px;
-    float: center;
-}
-.column3 {
-    padding: 35px;
-    box-sizing: border-box;
+.boxtext {
+    position: relative;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: left;
+    color: aquamarine;
+    width: 50%;
 }
 .ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
-    overflow: hidden;
-    background-color: 87ceeb;
+    width: 120px;
+    background-color: grey;
 }
 .li {
-    float: left;
+    float: top;
 }
 .li a {
     display: block;
     color: whitesmoke;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 19px 16px;
     text-decoration: none;
 }
 .li a:hover {
-    background-color: black
+    background-color: black;
+    color: whitesmoke;
 }
 .active {
     background-color: red;
@@ -68,8 +67,7 @@ body {
     background-image: url(NanaAkua.jpeg);
     background-position:center;
     background-repeat: no-repeat;
-    height: 30%;
-    opacity: 0.788899;
+    height: 50%;
     font-family: sans-serif;
 }
 .form {
