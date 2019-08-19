@@ -57,32 +57,48 @@
     <div class="form">
         <img src="gflag.jpeg" class="flag">    
         <h2 id="1">FIND YOUR AKAN NAME ?<h2>
-        <form action="#" method="POST" onsubmit="return validation()">
+        <form>
             <table class="td">
                 <tr>
                    <th>DAY:</th>
                 </tr>
                 <tr>        
-                   <td><input type="text" name="day" id="day" placeholder="DD"></td>
+                   <td><input type="text" name="day" id="day" placeholder="DD" size="2"></td>
                 </tr>
                 <tr>
                     <th>MONTH:</th>
                 </tr>
                 <tr>
-                   <td><input type="text" name="month" id="month" placeholder="MM"></td>
+                   <td><input type="text" name="month" id="month" placeholder="MM" size="2"></td>
                 </tr>
                 <tr>
                     <th>YEAR:</th>
                 </tr>
                 <tr>
-                   <td><input type="text" name="year" id="year" placeholder="YYYY"></td>
+                   <td><input type="text" name="year" id="year" placeholder="YYYY" size="4"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="clear"></td>
                 </tr>
             </table>
-            <br><br>
+            <br>
             <p>GENDER:</p>
-            <input type="radio" name="gender" value="male"> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br><br>
-            <button class="button" type="submit" name="Submit"><b>submit</b></button>
+            <input type="radio" name="gender" value="male" onclick="malecompute(this.form)">Male<br>
+            <input type="radio" name="gender" value="female" onclick="emalecompute(this.form)">Female<br><br>
+            <table class="td">
+                <tr>
+                  <th>Date of Birth:</th>
+                </tr>
+                <tr>
+                  <th><input type="text" name="result1" size="18"></th>
+                </tr>
+                <tr>
+                  <th>Your Akan Name:</th>
+                </tr>
+                <tr>
+                 <th><input type="text" name="result2" size="18"></th>
+                </tr>
+            </table>              
         </form>   
     </div>
 </body>

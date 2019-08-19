@@ -41,25 +41,13 @@ body {
 .active {
     background-color: red;
 }
-.button {
-    background-color: aquamarine; /* aquamarine */
-    border: none;
-    font-size: 17px;
-    color: rgb(51, 34, 34);
-    border-radius: 2px;
-    padding: 15px 75px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-}
 .button:hover {
     background-color: red;
     color: white ;
 }
 .td {
     padding: 10px;
-    transform: translate(40%,6%);
+    transform: translate(60%,10%);
 }
 .Akua {
     margin: 0%;
@@ -78,7 +66,7 @@ body {
     top: 10%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%,15%);
+    transform: translate(-50%,10%);
     box-sizing: border-box;
     padding: 60px;
 }
