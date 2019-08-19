@@ -29,3 +29,13 @@ months[9] = "September"
 months[10] = "October"
 months[11] = "November"
 months[12] = "December"
+
+//Akan names Array
+maleakannames = new MakeArray(7);
+maleakannames[0]= "kwame"
+maleakannames[1]= "kwasi"
+maleakannames[2]= "kwadwo"
+maleakannames[3]= "kwabena"
+maleakannames[4]= "kwaki"
+maleakannames[5]= "yaw"
+maleakannames[6]= "kwame"
