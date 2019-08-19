@@ -46,8 +46,9 @@ body {
     color: white ;
 }
 .td {
-    padding: 10px;
-    transform: translate(60%,10%);
+    padding: 6px;
+    top: 10%;
+    transform: translate(40%,10%);
 }
 .Akua {
     margin: 0%;
@@ -60,7 +61,7 @@ body {
 }
 .form {
     width: 500px;
-    height: 550px;
+    height: 630px;
     background: #000;
     color: aquamarine;
     top: 10%;
@@ -68,13 +69,12 @@ body {
     position: absolute;
     transform: translate(-50%,10%);
     box-sizing: border-box;
-    padding: 60px;
+    padding: 50px;
 }
 .form p {
     margin: 0;
     padding: 0;
     font-weight:bold;
-
 }
 .flag {
     width: 120px;
